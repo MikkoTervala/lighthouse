@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lighthouse_footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/lighthouse_footprints.pretty")(options "")(descr ""))
+)
