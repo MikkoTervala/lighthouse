@@ -1561,6 +1561,88 @@
 				)
 			)
 		)
+		(symbol "MountingHole_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_1_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -2593,6 +2675,200 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SW_Push_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW3"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FRONT"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lighthouse_footprints:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TS-1133-C-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" "C561509"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_1_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_1_1_0"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4286,6 +4562,12 @@
 		(uuid "1ece5ed1-f27a-46ee-b91a-3264b55ae329")
 	)
 	(junction
+		(at 162.56 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "202ce716-04e7-4069-b0e6-06f3205cd48d")
+	)
+	(junction
 		(at 41.91 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4466,6 +4748,12 @@
 		(uuid "97464680-8c6e-4292-8924-d440c77f193e")
 	)
 	(junction
+		(at 40.64 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98058d68-2c1c-4138-8a76-d412dd032035")
+	)
+	(junction
 		(at 118.11 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4482,6 +4770,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac6c0792-39f8-4f46-90df-571ae0e2a6ed")
+	)
+	(junction
+		(at 180.34 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad888e07-271a-40fa-b2c3-1d642cf80e36")
 	)
 	(junction
 		(at 138.43 134.62)
@@ -4508,6 +4802,12 @@
 		(uuid "b75c113b-f3ee-469d-857a-fbe572a15ae9")
 	)
 	(junction
+		(at 127 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b84f01dd-e4f3-423d-8b82-73752c468687")
+	)
+	(junction
 		(at 198.12 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4524,6 +4824,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0bd96ba-9795-4104-8930-d74a637ff574")
+	)
+	(junction
+		(at 127 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2b0b43f-11dd-415a-ab87-a399c919326d")
 	)
 	(junction
 		(at 229.87 134.62)
@@ -4647,6 +4953,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 78.74) (xy 162.56 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cdf7bfd-2734-4483-8386-1042a19e7585")
+	)
+	(wire
+		(pts
 			(xy 264.16 82.55) (xy 255.27 82.55)
 		)
 		(stroke
@@ -4664,6 +4980,16 @@
 			(type default)
 		)
 		(uuid "0d5bca8c-dd62-4918-ac8e-9689261ce3d4")
+	)
+	(wire
+		(pts
+			(xy 176.53 83.82) (xy 180.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1311c504-4c1b-428d-a19a-ed0a15e9aaa0")
 	)
 	(wire
 		(pts
@@ -4714,6 +5040,16 @@
 			(type default)
 		)
 		(uuid "19b2c2da-064a-4297-8bd7-7c0640d9ac25")
+	)
+	(wire
+		(pts
+			(xy 125.73 149.86) (xy 127 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd81f2f-d895-421a-b55e-f9b0cfad4ece")
 	)
 	(wire
 		(pts
@@ -4784,6 +5120,16 @@
 			(type default)
 		)
 		(uuid "25db2a4f-9041-4bdc-bf4d-3abd3275a25b")
+	)
+	(wire
+		(pts
+			(xy 127 149.86) (xy 138.43 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a54d6d0-d492-4d3a-81a6-27813892b962")
 	)
 	(wire
 		(pts
@@ -4897,6 +5243,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 72.39) (xy 40.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3817616e-391c-401b-a23d-dd75972ae904")
+	)
+	(wire
+		(pts
 			(xy 64.77 100.33) (xy 48.26 100.33)
 		)
 		(stroke
@@ -4967,16 +5323,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 149.86) (xy 138.43 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48fe2f9d-5587-4329-8ed4-77b155151dab")
-	)
-	(wire
-		(pts
 			(xy 73.66 146.05) (xy 72.39 146.05)
 		)
 		(stroke
@@ -5024,6 +5370,16 @@
 			(type default)
 		)
 		(uuid "543d04fc-ff34-45b6-bd27-167d62ac88ad")
+	)
+	(wire
+		(pts
+			(xy 127 142.24) (xy 127 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cc6aed-6d2e-4301-81c0-06d1ce7c585c")
 	)
 	(wire
 		(pts
@@ -5137,6 +5493,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 78.74) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c979d4a-9057-450c-9869-430859e543d8")
+	)
+	(wire
+		(pts
 			(xy 229.87 149.86) (xy 245.11 149.86)
 		)
 		(stroke
@@ -5237,6 +5603,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 148.59) (xy 127 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70fe13d8-6995-4bb3-bf70-937c8ea3641a")
+	)
+	(wire
+		(pts
 			(xy 200.66 116.84) (xy 204.47 116.84)
 		)
 		(stroke
@@ -5314,6 +5690,16 @@
 			(type default)
 		)
 		(uuid "7ddbd93d-1f40-4f2a-a95a-10f735710818")
+	)
+	(wire
+		(pts
+			(xy 124.46 57.15) (xy 128.27 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4be6e3-2e02-4c1b-b899-5fa141f66718")
 	)
 	(wire
 		(pts
@@ -5517,6 +5903,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 73.66) (xy 162.56 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8167ee7-3a19-4354-91d1-6383a73aab13")
+	)
+	(wire
+		(pts
 			(xy 52.07 97.79) (xy 64.77 97.79)
 		)
 		(stroke
@@ -5584,6 +5980,16 @@
 			(type default)
 		)
 		(uuid "b59653aa-66a4-41ce-b7fe-9ed1e4555233")
+	)
+	(wire
+		(pts
+			(xy 127 142.24) (xy 130.81 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6fc3a4b-e200-42cc-beb2-b515b1226959")
 	)
 	(wire
 		(pts
@@ -5827,6 +6233,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 83.82) (xy 182.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16f1624-6bae-4453-8ef1-fc5e4914f239")
+	)
+	(wire
+		(pts
 			(xy 41.91 38.1) (xy 41.91 39.37)
 		)
 		(stroke
@@ -5844,6 +6260,26 @@
 			(type default)
 		)
 		(uuid "f3b5f787-de67-4aa1-a832-d39608d6ba68")
+	)
+	(wire
+		(pts
+			(xy 157.48 77.47) (xy 157.48 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5cb96fd-1ae3-4531-8171-bdf4ee36524c")
+	)
+	(wire
+		(pts
+			(xy 125.73 142.24) (xy 127 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a35911-cc35-4da0-8d48-a464b0d191d3")
 	)
 	(wire
 		(pts
@@ -5879,6 +6315,28 @@
 		)
 		(uuid a0a11458-f0aa-426b-941f-85bf27260db7)
 	)
+	(rectangle
+		(start 207.645 27.94)
+		(end 226.06 36.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid acff88c2-aab8-478a-b03b-a3456ec0161b)
+	)
+	(text "Excluded"
+		(exclude_from_sim no)
+		(at 212.598 29.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8444943f-6162-481e-9640-d602f067e1be")
+	)
 	(text "Excluded"
 		(exclude_from_sim no)
 		(at 51.435 51.435 0)
@@ -5898,6 +6356,16 @@
 			)
 		)
 		(uuid "d6cef4d3-3375-4e5e-b8a5-d2787536cea2")
+	)
+	(label "EN"
+		(at 63.5 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0403e2e6-bbaa-4185-8d76-ea7b128228a2")
 	)
 	(label "D-"
 		(at 74.93 153.67 0)
@@ -5931,7 +6399,7 @@
 	)
 	(global_label "GPIO1"
 		(shape input)
-		(at 102.87 31.75 180)
+		(at 176.53 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5941,7 +6409,7 @@
 		)
 		(uuid "04c43c81-6836-4a2c-a86a-7c3b42e98343")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.2 31.75 0)
+			(at 167.86 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5973,7 +6441,7 @@
 			)
 		)
 	)
-	(global_label "RX"
+	(global_label "RX{slash}20"
 		(shape input)
 		(at 95.25 72.39 0)
 		(fields_autoplaced yes)
@@ -5985,7 +6453,7 @@
 		)
 		(uuid "19880063-f7d7-417b-a735-efc0e1b62b14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.7147 72.39 0)
+			(at 104.4642 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +6465,7 @@
 	)
 	(global_label "GPIO10"
 		(shape input)
-		(at 152.4 73.66 180)
+		(at 102.87 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6007,7 +6475,7 @@
 		)
 		(uuid "1ce42882-19d9-409e-9ad5-87c86b39c3b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.5205 73.66 0)
+			(at 92.9905 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6553,7 @@
 	)
 	(global_label "GPIO0"
 		(shape input)
-		(at 102.87 34.29 180)
+		(at 125.73 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6095,7 +6563,7 @@
 		)
 		(uuid "695932d0-4148-4141-8638-be55d5d7dfee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.2 34.29 0)
+			(at 117.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6151,7 +6619,7 @@
 	)
 	(global_label "GPIO2"
 		(shape input)
-		(at 182.88 83.82 180)
+		(at 152.4 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6161,7 +6629,7 @@
 		)
 		(uuid "760f0508-4f64-4364-90d2-da84095d92e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.21 83.82 0)
+			(at 143.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6171,7 +6639,7 @@
 			)
 		)
 	)
-	(global_label "TX"
+	(global_label "TX{slash}21"
 		(shape input)
 		(at 95.25 74.93 0)
 		(fields_autoplaced yes)
@@ -6183,7 +6651,7 @@
 		)
 		(uuid "7c6e2062-8a20-4e85-90ab-74da796c3061")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.4123 74.93 0)
+			(at 104.1618 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,7 +6685,7 @@
 	)
 	(global_label "GPIO8"
 		(shape input)
-		(at 115.57 57.15 180)
+		(at 124.46 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6227,7 +6695,7 @@
 		)
 		(uuid "8ec3ddce-9dd9-47ed-a394-74c383aecbc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.9 57.15 0)
+			(at 115.79 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6283,7 +6751,7 @@
 	)
 	(global_label "GPIO3"
 		(shape input)
-		(at 102.87 29.21 180)
+		(at 102.87 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6293,7 +6761,7 @@
 		)
 		(uuid "a9c74249-df99-4756-befc-cbcb9d0a42b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.2 29.21 0)
+			(at 94.2 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,9 +6837,9 @@
 			)
 		)
 	)
-	(global_label "RX"
+	(global_label "RX{slash}20"
 		(shape input)
-		(at 130.81 142.24 180)
+		(at 102.87 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6381,7 +6849,7 @@
 		)
 		(uuid "c75a6b84-e102-499a-bb2a-dbb9d606f2e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.9995 142.24 0)
+			(at 93.6558 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6413,9 +6881,9 @@
 			)
 		)
 	)
-	(global_label "TX"
+	(global_label "TX{slash}21"
 		(shape input)
-		(at 102.87 26.67 180)
+		(at 102.87 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6425,7 +6893,7 @@
 		)
 		(uuid "d8d76ef0-5fdd-461c-a5c7-23375c295faf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.3619 26.67 0)
+			(at 93.9582 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6689,14 +7157,15 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_Push_1")
 		(lib_id "Switch:SW_Push")
 		(at 157.48 73.66 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "057830aa-5f7c-45ed-88aa-d6508dd3961f")
 		(property "Reference" "SW3"
 			(at 157.48 66.04 0)
@@ -6706,7 +7175,7 @@
 				)
 			)
 		)
-		(property "Value" "ROOF"
+		(property "Value" "FRONT"
 			(at 157.48 68.58 0)
 			(effects
 				(font
@@ -6714,7 +7183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lighthouse_footprints:SW_SPST_PTS810"
+		(property "Footprint" "lighthouse_footprints:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010"
 			(at 157.48 68.58 0)
 			(effects
 				(font
@@ -6732,7 +7201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TS-1133-C-A"
 			(at 157.48 73.66 0)
 			(effects
 				(font
@@ -6741,7 +7210,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C139797"
+		(property "LCSC Part #" "C561509"
 			(at 157.48 73.66 0)
 			(effects
 				(font
@@ -6764,6 +7233,9 @@
 		)
 		(pin "2"
 			(uuid "b75100c1-8fd3-4796-b3de-f32212104e66")
+		)
+		(pin "MP"
+			(uuid "abb4228c-d527-4bdf-b2ac-72d28ca12c8c")
 		)
 		(instances
 			(project "lighthouse-pcb"
@@ -6844,8 +7316,8 @@
 		(at 217.17 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "0ea0b3c6-99d4-4dc7-9a97-ee17c45c5b03")
 		(property "Reference" "C2"
@@ -7029,6 +7501,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 229.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2874885"
 			(at 229.87 142.24 0)
 			(effects
 				(font
@@ -7588,6 +8069,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 152.4 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ce9eedd-0f33-4e7a-ac9f-a68fe4b38c65")
+		(property "Reference" "TP6"
+			(at 153.67 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V"
+			(at 153.67 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 152.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df673e55-fe7b-4e3d-8915-825d91677e77")
+		)
+		(instances
+			(project "lighthouse-pcb"
+				(path "/b9b96d54-3add-4166-9e7a-45d352891d50"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 168.91 142.24 0)
 		(unit 1)
@@ -7633,6 +8190,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 168.91 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2874885"
 			(at 168.91 142.24 0)
 			(effects
 				(font
@@ -7954,7 +8520,7 @@
 		(at 250.19 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8167,7 +8733,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 149.86 270)
+		(at 125.73 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8175,7 +8741,7 @@
 		(dnp no)
 		(uuid "38da524c-0655-4eb9-a0b7-9a19820bab92")
 		(property "Reference" "#PWR016"
-			(at 125.73 149.86 0)
+			(at 119.38 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8184,7 +8750,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127.6858 149.987 0)
+			(at 121.3358 149.987 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8192,7 +8758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 149.86 0)
+			(at 125.73 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8201,7 +8767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 149.86 0)
+			(at 125.73 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8210,7 +8776,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 149.86 0)
+			(at 125.73 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8309,6 +8875,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 40.64 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40be490e-7d1e-4386-8be6-75c43ad2eb9d")
+		(property "Reference" "TP5"
+			(at 35.306 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.306 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 35.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 40.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c10a510-8ecb-4f87-b24c-8a7859d6c1cc")
+		)
+		(instances
+			(project "lighthouse-pcb"
+				(path "/b9b96d54-3add-4166-9e7a-45d352891d50"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 153.67 142.24 0)
 		(unit 1)
@@ -8354,6 +8995,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 153.67 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2874885"
 			(at 153.67 142.24 0)
 			(effects
 				(font
@@ -8453,7 +9103,7 @@
 		(at 250.19 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8645,6 +9295,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 214.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2874885"
 			(at 214.63 142.24 0)
 			(effects
 				(font
@@ -8948,6 +9607,84 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 180.34 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c7dee6b-b1a3-40c4-8ab4-4a82417eff23")
+		(property "Reference" "R13"
+			(at 181.8386 85.1916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 181.8386 87.503 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 180.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25804"
+			(at 180.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f205594c-04dd-4d39-9650-e55925993ff7")
+		)
+		(pin "2"
+			(uuid "06693738-e49a-4a00-bc26-29207ab27fb1")
+		)
+		(instances
+			(project "lighthouse-pcb"
+				(path "/b9b96d54-3add-4166-9e7a-45d352891d50"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 179.07 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8991,13 +9728,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 179.07 104.14 0)
+		(property "Description" "Iset"
+			(at 182.626 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC Part #" ""
@@ -9070,6 +9806,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 245.11 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2874885"
 			(at 245.11 142.24 0)
 			(effects
 				(font
@@ -9321,6 +10066,84 @@
 			(project ""
 				(path "/b9b96d54-3add-4166-9e7a-45d352891d50"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 127 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6700dca5-c6a1-4e89-bfe8-4a4aeffac3ed")
+		(property "Reference" "R12"
+			(at 128.4986 144.8816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 128.4986 147.193 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25804"
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bda8d322-d303-4777-b071-0022301038f9")
+		)
+		(pin "2"
+			(uuid "c1d461a2-5913-47cb-a853-bb5086bf0b44")
+		)
+		(instances
+			(project "lighthouse-pcb"
+				(path "/b9b96d54-3add-4166-9e7a-45d352891d50"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9771,6 +10594,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2874885"
+			(at 199.39 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "241bf7dc-94e9-403b-ade6-222796c9f4cb")
 		)
@@ -10055,6 +10887,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2874885"
+			(at 184.15 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6a233c7-70a3-4709-953b-64d525c1c280")
 		)
@@ -10172,7 +11013,7 @@
 				)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "BOOT/ROOF"
 			(at 36.83 105.41 0)
 			(effects
 				(font
@@ -10180,7 +11021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lighthouse_footprints:SW_SPST_PTS810"
+		(property "Footprint" "lighthouse_footprints:SW_Push_1P1T_XKB_TS-1187A"
 			(at 36.83 105.41 0)
 			(effects
 				(font
@@ -10198,7 +11039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TS-1187A-C-J-B 260g 5mm"
 			(at 36.83 110.49 0)
 			(effects
 				(font
@@ -10207,7 +11048,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C139797"
+		(property "LCSC Part #" "C318885"
 			(at 36.83 110.49 0)
 			(effects
 				(font
@@ -10235,6 +11076,82 @@
 			(project "lighthouse-pcb"
 				(path "/b9b96d54-3add-4166-9e7a-45d352891d50"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 128.27 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a4a2d52-319e-4d26-8633-07f66bd9b179")
+		(property "Reference" "TP4"
+			(at 129.54 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IO8"
+			(at 129.54 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 133.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 128.27 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0386cff-c653-4cbd-81e1-816df8c9805d")
+		)
+		(instances
+			(project "lighthouse-pcb"
+				(path "/b9b96d54-3add-4166-9e7a-45d352891d50"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -11663,7 +12580,7 @@
 		(at 250.19 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11733,7 +12650,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 73.66 90)
+		(at 163.83 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11741,7 +12658,7 @@
 		(dnp no)
 		(uuid "d6980992-43d3-4250-9b98-16780f72c938")
 		(property "Reference" "#PWR020"
-			(at 168.91 73.66 0)
+			(at 170.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11750,7 +12667,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.9542 73.533 0)
+			(at 168.2242 73.533 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11758,7 +12675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 73.66 0)
+			(at 163.83 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11767,7 +12684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 73.66 0)
+			(at 163.83 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11776,7 +12693,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 73.66 0)
+			(at 163.83 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11949,6 +12866,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 180.34 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "daf725ab-c014-48f9-a760-afc8c04785b1")
+		(property "Reference" "#PWR031"
+			(at 180.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.467 93.2942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97f5fb11-2837-4ff9-856c-a91f285a16a4")
+		)
+		(instances
+			(project "lighthouse-pcb"
+				(path "/b9b96d54-3add-4166-9e7a-45d352891d50"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 226.06 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12007,6 +12989,71 @@
 			(project "lighthouse-pcb"
 				(path "/b9b96d54-3add-4166-9e7a-45d352891d50"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MountingHole_1")
+		(lib_id "Mechanical:MountingHole")
+		(at 261.62 46.99 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e93a380f-7e91-460f-87a0-98224dd59802")
+		(property "Reference" "H4"
+			(at 264.16 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole M2.5"
+			(at 264.16 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lighthouse_footprints:MountingHole_2.7mm_M2.5"
+			(at 261.62 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 261.62 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/b9b96d54-3add-4166-9e7a-45d352891d50"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -12470,6 +13517,72 @@
 			(project "lighthouse-pcb"
 				(path "/b9b96d54-3add-4166-9e7a-45d352891d50"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12C")
+		(at 152.4 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff55dc64-ff25-447b-afb6-cd959178265e")
+		(property "Reference" "#PWR032"
+			(at 156.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 149.1742 35.179 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7a1d0de-6adb-4c97-9d6d-ed606d3ddf1d")
+		)
+		(instances
+			(project "lighthouse-pcb"
+				(path "/b9b96d54-3add-4166-9e7a-45d352891d50"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
