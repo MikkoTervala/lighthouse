@@ -19014,4 +19014,35 @@
 			)
 		)
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "348718af-2221-42a7-8518-2a8b45dadcf1")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 132 50.9) (xy 132 55.9) (xy 137 55.9) (xy 137 50.9)
+			)
+		)
+		(filled_polygon
+			(layer "F.SilkS")
+			(island)
+			(pts
+				(xy 136.943039 50.919685) (xy 136.988794 50.972489) (xy 137 51.024) (xy 137 55.776) (xy 136.980315 55.843039)
+				(xy 136.927511 55.888794) (xy 136.876 55.9) (xy 132.124 55.9) (xy 132.056961 55.880315) (xy 132.011206 55.827511)
+				(xy 132 55.776) (xy 132 51.024) (xy 132.019685 50.956961) (xy 132.072489 50.911206) (xy 132.124 50.9)
+				(xy 136.876 50.9)
+			)
+		)
+	)
 )
