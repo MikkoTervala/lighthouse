@@ -4802,12 +4802,6 @@
 		(uuid "b75c113b-f3ee-469d-857a-fbe572a15ae9")
 	)
 	(junction
-		(at 127 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b84f01dd-e4f3-423d-8b82-73752c468687")
-	)
-	(junction
 		(at 198.12 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4824,12 +4818,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0bd96ba-9795-4104-8930-d74a637ff574")
-	)
-	(junction
-		(at 127 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2b0b43f-11dd-415a-ab87-a399c919326d")
 	)
 	(junction
 		(at 229.87 134.62)
@@ -5043,7 +5031,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 149.86) (xy 127 149.86)
+			(xy 129.54 149.86) (xy 138.43 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5120,16 +5108,6 @@
 			(type default)
 		)
 		(uuid "25db2a4f-9041-4bdc-bf4d-3abd3275a25b")
-	)
-	(wire
-		(pts
-			(xy 127 149.86) (xy 138.43 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a54d6d0-d492-4d3a-81a6-27813892b962")
 	)
 	(wire
 		(pts
@@ -5373,16 +5351,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 142.24) (xy 127 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54cc6aed-6d2e-4301-81c0-06d1ce7c585c")
-	)
-	(wire
-		(pts
 			(xy 118.11 36.83) (xy 118.11 39.37)
 		)
 		(stroke
@@ -5600,16 +5568,6 @@
 			(type default)
 		)
 		(uuid "70be25c3-0823-491d-a114-91bf2baaa0d4")
-	)
-	(wire
-		(pts
-			(xy 127 148.59) (xy 127 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70fe13d8-6995-4bb3-bf70-937c8ea3641a")
 	)
 	(wire
 		(pts
@@ -5983,16 +5941,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 142.24) (xy 130.81 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6fc3a4b-e200-42cc-beb2-b515b1226959")
-	)
-	(wire
-		(pts
 			(xy 66.04 156.21) (xy 66.04 158.75)
 		)
 		(stroke
@@ -6273,7 +6221,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 142.24) (xy 127 142.24)
+			(xy 129.54 142.24) (xy 130.81 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6336,6 +6284,16 @@
 			)
 		)
 		(uuid "8444943f-6162-481e-9640-d602f067e1be")
+	)
+	(text "2200K alternative C17503397"
+		(exclude_from_sim no)
+		(at 264.922 110.998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6dc92ec-b84b-4308-905b-f3c6f260f7ef")
 	)
 	(text "Excluded"
 		(exclude_from_sim no)
@@ -6553,7 +6511,7 @@
 	)
 	(global_label "GPIO0"
 		(shape input)
-		(at 125.73 142.24 180)
+		(at 152.4 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6563,7 +6521,7 @@
 		)
 		(uuid "695932d0-4148-4141-8638-be55d5d7dfee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.06 142.24 0)
+			(at 143.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6619,7 +6577,7 @@
 	)
 	(global_label "GPIO2"
 		(shape input)
-		(at 152.4 73.66 180)
+		(at 129.54 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6629,7 +6587,7 @@
 		)
 		(uuid "760f0508-4f64-4364-90d2-da84095d92e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.73 73.66 0)
+			(at 120.87 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,7 +7580,7 @@
 				)
 			)
 		)
-		(property "Value" "LED 0.5W 2200k"
+		(property "Value" "LED 0.5W 3000k"
 			(at 253.0475 88.9 0)
 			(effects
 				(font
@@ -7657,7 +7615,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C17503397"
+		(property "LCSC Part #" "C694723"
 			(at 251.46 93.98 0)
 			(effects
 				(font
@@ -7775,7 +7733,7 @@
 				)
 			)
 		)
-		(property "Value" "LED 0.5W 2200k"
+		(property "Value" "LED 0.5W 3000k"
 			(at 253.0475 66.04 0)
 			(effects
 				(font
@@ -7810,7 +7768,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C17503397"
+		(property "LCSC Part #" "C694723"
 			(at 251.46 71.12 0)
 			(effects
 				(font
@@ -8733,7 +8691,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 149.86 270)
+		(at 129.54 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8741,7 +8699,7 @@
 		(dnp no)
 		(uuid "38da524c-0655-4eb9-a0b7-9a19820bab92")
 		(property "Reference" "#PWR016"
-			(at 119.38 149.86 0)
+			(at 123.19 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8750,7 +8708,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.3358 149.987 0)
+			(at 125.1458 149.987 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8758,7 +8716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 149.86 0)
+			(at 129.54 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8767,7 +8725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 149.86 0)
+			(at 129.54 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8776,7 +8734,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 149.86 0)
+			(at 129.54 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9701,7 +9659,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "3k"
 			(at 180.5686 105.283 0)
 			(effects
 				(font
@@ -9736,7 +9694,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C4211"
 			(at 179.07 104.14 0)
 			(effects
 				(font
@@ -10066,84 +10024,6 @@
 			(project ""
 				(path "/b9b96d54-3add-4166-9e7a-45d352891d50"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 127 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6700dca5-c6a1-4e89-bfe8-4a4aeffac3ed")
-		(property "Reference" "R12"
-			(at 128.4986 144.8816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 128.4986 147.193 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 127 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C25804"
-			(at 127 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bda8d322-d303-4777-b071-0022301038f9")
-		)
-		(pin "2"
-			(uuid "c1d461a2-5913-47cb-a853-bb5086bf0b44")
-		)
-		(instances
-			(project "lighthouse-pcb"
-				(path "/b9b96d54-3add-4166-9e7a-45d352891d50"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10708,7 +10588,7 @@
 				)
 			)
 		)
-		(property "Value" "LED 0.5W 2200k"
+		(property "Value" "LED 0.5W 3000k"
 			(at 253.0475 77.47 0)
 			(effects
 				(font
@@ -10743,7 +10623,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C17503397"
+		(property "LCSC Part #" "C694723"
 			(at 251.46 82.55 0)
 			(effects
 				(font
@@ -12229,7 +12109,7 @@
 				)
 			)
 		)
-		(property "Value" "LED 0.5W 2200k"
+		(property "Value" "LED 0.5W 3000k"
 			(at 253.0475 100.33 0)
 			(effects
 				(font
@@ -12264,7 +12144,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C17503397"
+		(property "LCSC Part #" "C694723"
 			(at 251.46 105.41 0)
 			(effects
 				(font
