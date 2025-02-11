@@ -579,7 +579,7 @@
 		(path "/40be490e-7d1e-4386-8be6-75c43ad2eb9d")
 		(sheetname "Root")
 		(sheetfile "lighthouse-pcb.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -1546,6 +1546,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C51118"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78a8a591-ed7c-4cc0-9960-1d6e8d9d3576")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4357,7 +4370,7 @@
 		(path "/10b32847-54ce-4bbc-8107-3792fccc6e73")
 		(sheetname "Root")
 		(sheetfile "lighthouse-pcb.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -6925,7 +6938,7 @@
 		(path "/52b39fda-ff30-4d6b-a463-33d0d0c3f874")
 		(sheetname "Root")
 		(sheetfile "lighthouse-pcb.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -8068,7 +8081,7 @@
 		(path "/1ce9eedd-0f33-4e7a-ac9f-a68fe4b38c65")
 		(sheetname "Root")
 		(sheetfile "lighthouse-pcb.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -9633,7 +9646,7 @@
 		(path "/9a4a2d52-319e-4d26-8633-07f66bd9b179")
 		(sheetname "Root")
 		(sheetfile "lighthouse-pcb.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -11190,7 +11203,7 @@
 		(path "/7d45ed60-0694-4a86-b598-9702315feffe")
 		(sheetname "Root")
 		(sheetfile "lighthouse-pcb.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -12302,6 +12315,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2934560"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5d04032-faea-4fe7-8b4b-88e1c43b0ba6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13984,7 +14010,7 @@
 		(uuid "df8c1b48-0ad4-4be9-92a1-81e6ed2a879c")
 	)
 	(gr_text "github.com/MikkoTervala/lighthouse"
-		(at 142.7 78.6 90)
+		(at 142.7 78.3 90)
 		(layer "B.SilkS")
 		(uuid "8164bdcf-cfc2-44e9-a5d6-99f9d74f521d")
 		(effects
@@ -14791,6 +14817,14 @@
 		(uuid "0449a3b6-4b63-408f-aee5-f7a92323f21e")
 	)
 	(segment
+		(start 114.45 92.4375)
+		(end 114.45 91.375)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "0616411c-ea4e-4d36-8ee3-9fe8eeda1f86")
+	)
+	(segment
 		(start 112.55 91.775001)
 		(end 113.000001 91.325)
 		(width 0.5)
@@ -14887,6 +14921,14 @@
 		(uuid "4172db9c-1e08-41cc-adf9-2e74aff2b0bf")
 	)
 	(segment
+		(start 114.5 91.325)
+		(end 115.975 91.325)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "427a4fc4-e10c-4adb-98f5-45e9682371d2")
+	)
+	(segment
 		(start 133.8 69.755634)
 		(end 133.8 72.1)
 		(width 0.5)
@@ -14925,6 +14967,14 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "5adf0292-a63a-4aff-ba37-e45cd4bc147e")
+	)
+	(segment
+		(start 114.45 91.375)
+		(end 114.5 91.325)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "5ce4c05f-a73a-4bac-a6c5-7aa4610f5226")
 	)
 	(segment
 		(start 114.075 82.175)
@@ -15087,6 +15137,14 @@
 		(uuid "a592f121-54fe-44cd-82d5-04cb8a4ba6a7")
 	)
 	(segment
+		(start 113.000001 91.325)
+		(end 114.5 91.325)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "a604a199-cb89-47c6-aaff-d2cb8a6fa616")
+	)
+	(segment
 		(start 131.025 91.5)
 		(end 131.025 92.135)
 		(width 0.5)
@@ -15133,14 +15191,6 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "b923d93c-4eab-46e8-a8e5-4cd745938682")
-	)
-	(segment
-		(start 113.000001 91.325)
-		(end 115.975 91.325)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "b9ed84ed-1319-4afd-8ea0-8f836cff972f")
 	)
 	(segment
 		(start 102.8 63.6)
