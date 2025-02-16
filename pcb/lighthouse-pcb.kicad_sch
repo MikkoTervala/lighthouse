@@ -6275,6 +6275,18 @@
 		)
 		(uuid acff88c2-aab8-478a-b03b-a3456ec0161b)
 	)
+	(rectangle
+		(start 245.237 21.717)
+		(end 276.225 43.815)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b0f61c96-831d-40cc-9e8f-90e8b4b3bc8b)
+	)
 	(text "Excluded"
 		(exclude_from_sim no)
 		(at 212.598 29.718 0)
@@ -6294,6 +6306,16 @@
 			)
 		)
 		(uuid "b6dc92ec-b84b-4308-905b-f3c6f260f7ef")
+	)
+	(text "Excluded"
+		(exclude_from_sim no)
+		(at 250.19 23.495 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bd04e5fb-4cf5-4426-adc0-1080d4948efe")
 	)
 	(text "Excluded"
 		(exclude_from_sim no)
@@ -8479,7 +8501,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a90cd22-1369-48bc-8531-6bdec0b8aa35")
@@ -9062,7 +9084,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cb80cc0-3ad5-4942-93b4-c2c91caff7e6")
@@ -12470,7 +12492,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d665f264-1ec6-40da-8a54-8560e00937e9")

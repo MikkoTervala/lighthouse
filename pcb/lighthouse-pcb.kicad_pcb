@@ -11482,7 +11482,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "37d1f842-2d53-4191-8a35-725837402974")
 			(effects
@@ -11650,7 +11650,7 @@
 			(uuid "9de757b8-afba-4ef8-80fb-6a5e5df42766")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8a6d7765-7e1b-438e-9cc3-f71248b67b1b")
 			(effects
