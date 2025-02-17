@@ -6413,6 +6413,126 @@
 			)
 		)
 	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "784934c2-5ecf-40e5-b109-d2231af41d6f")
+		(at 100 90)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "T2"
+			(at -0.25 -2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b7d32ad3-cd86-407f-ba7e-9c986c878c1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 0)
+			(layer "Dwgs.User")
+			(uuid "dda075bd-8912-4721-b6bf-f6741cc5a31f")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Footprint" "PCM_kikit:Tab"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37436833-eef9-4892-b146-fa5e828fbc4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "869ebd92-8c38-441a-9154-3357109e5cd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "KiKit tab annotations"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f952bad2-7cf6-4030-854f-28da320b6c7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2d5a88e9-787d-41f2-9900-6becded3cc1e")
+		(sheetname "Root")
+		(sheetfile "lighthouse-pcb.kicad_sch")
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "78ced966-a778-493d-8791-3c56a44d09e5")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "0f8560e7-3531-4c2b-b7c9-241740553abe")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "9836a01c-3366-493f-a163-4997ae8de426")
+		)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "325a93ee-4517-4d65-baf0-f7e0a8f3ba75")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 90)
+			(layer "Dwgs.User")
+			(uuid "75ffe269-93d3-4708-bed8-4d637d35c29d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "7d604e6d-7167-4c02-820b-206ae8776055")
@@ -9784,6 +9904,126 @@
 			)
 		)
 	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "c64ecb5c-2d5f-4c4d-b507-9259ecb888de")
+		(at 100 55)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "T1"
+			(at -0.25 -2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "65089230-5724-457e-b910-a10cf7f86e00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 0)
+			(layer "Dwgs.User")
+			(uuid "49680221-b176-4dcc-b9c0-6366eeae3a65")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Footprint" "PCM_kikit:Tab"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05be0532-7296-4412-98c0-96d019671cce")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23fd56cc-c411-4231-b58c-bfda2f3ee676")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "KiKit tab annotations"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c3b20fe-36a5-4773-9969-bbe4c25f8bf0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2799538a-8bd5-4a95-9267-531cc1bf827c")
+		(sheetname "Root")
+		(sheetfile "lighthouse-pcb.kicad_sch")
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "a0fc0c4c-845e-4fc3-84c4-de1b971be1e2")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "d7e1afcc-4626-45db-9fec-b410420965e6")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "f2443fea-7132-4400-9833-e15e591344f6")
+		)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "fcf5db83-071e-4e43-b144-ff54104333f8")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 90)
+			(layer "Dwgs.User")
+			(uuid "7ed1941a-61cc-4f90-9f77-1af624e4ecd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "cfd733a9-c687-4280-9ea6-1ec0eb95b99e")
@@ -10568,6 +10808,126 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "db4cfa65-239a-49c4-a2d4-2a1aacb28d5e")
+		(at 145 90 180)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "T4"
+			(at -0.25 -2 360)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7de257be-82ee-4f5c-9814-babbf3ce8122")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 360)
+			(layer "Dwgs.User")
+			(uuid "0e98e9f0-dbec-4502-9443-edf1c1ed676b")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Footprint" "PCM_kikit:Tab"
+			(at 0 0 360)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3cf0420-f78a-4b21-894f-1332f5463b05")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 360)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06f9da8e-3055-4b0a-84dd-3257414964cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "KiKit tab annotations"
+			(at 0 0 360)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5872fe21-45bc-4257-9087-40f4fa3dd32e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/43c95543-642b-4d57-8ed4-51148d98c1e0")
+		(sheetname "Root")
+		(sheetfile "lighthouse-pcb.kicad_sch")
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "351a0d66-bd23-41c0-98c3-27178b71532f")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "7927514b-3faa-47e1-a69e-ae3365d7bf4c")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "b3a7c4a0-4d3f-426c-83c3-3bce6004d039")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "3831e021-c250-4a4b-afb6-fca10c541718")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 90)
+			(layer "Dwgs.User")
+			(uuid "28d490a7-04a7-4e58-a30c-9adac4ebe434")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
 			)
 		)
 	)
@@ -11473,6 +11833,126 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "ecc81f0a-b355-4209-bcb2-8af98c3354fe")
+		(at 145 55 180)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "T3"
+			(at -0.25 -2 360)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "36b91f24-6ada-41c8-b4d6-98474e5416ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 360)
+			(layer "Dwgs.User")
+			(uuid "cdd6c94f-ffec-4484-9e69-d680f4eb2c6c")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Footprint" "PCM_kikit:Tab"
+			(at 0 0 360)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7daa1a8f-1ef9-49b1-8da6-952044e67850")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 360)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11c963a5-383d-4a19-8986-ca86b311e6e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "KiKit tab annotations"
+			(at 0 0 360)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4abe6c0-c6eb-431d-9dcb-87c06bd5c4c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/69371cd2-4049-442f-9c3d-1961c40c5e83")
+		(sheetname "Root")
+		(sheetfile "lighthouse-pcb.kicad_sch")
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "71e42f15-8b6d-4d85-85b9-e60669fa1e7e")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "8d617e20-2d62-46fe-839e-5076d1c42cc8")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "b05231d3-79db-41d9-b0bb-76e003e7a734")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "3eaafd5e-3413-4f39-96f1-9f2b22228d0e")
+		)
+		(fp_text user "KIKIT: width: 3mm"
+			(at -5.5 0 90)
+			(layer "Dwgs.User")
+			(uuid "6a5f9bd5-56b3-4a0d-8b8d-ff4e0f22fd05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
 			)
 		)
 	)
