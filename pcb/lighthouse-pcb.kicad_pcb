@@ -10817,7 +10817,7 @@
 		(at 145 90 180)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "T4"
-			(at -0.25 -2 360)
+			(at -0.25 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7de257be-82ee-4f5c-9814-babbf3ce8122")
@@ -10829,7 +10829,7 @@
 			)
 		)
 		(property "Value" "Tab"
-			(at -3 -1 360)
+			(at -3 -1 0)
 			(layer "Dwgs.User")
 			(uuid "0e98e9f0-dbec-4502-9443-edf1c1ed676b")
 			(effects
@@ -10840,7 +10840,7 @@
 			)
 		)
 		(property "Footprint" "PCM_kikit:Tab"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b3cf0420-f78a-4b21-894f-1332f5463b05")
@@ -10852,7 +10852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "06f9da8e-3055-4b0a-84dd-3257414964cc")
@@ -10864,7 +10864,7 @@
 			)
 		)
 		(property "Description" "KiKit tab annotations"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5872fe21-45bc-4257-9087-40f4fa3dd32e")
@@ -11842,7 +11842,7 @@
 		(at 145 55 180)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "T3"
-			(at -0.25 -2 360)
+			(at -0.25 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "36b91f24-6ada-41c8-b4d6-98474e5416ff")
@@ -11854,7 +11854,7 @@
 			)
 		)
 		(property "Value" "Tab"
-			(at -3 -1 360)
+			(at -3 -1 0)
 			(layer "Dwgs.User")
 			(uuid "cdd6c94f-ffec-4484-9e69-d680f4eb2c6c")
 			(effects
@@ -11865,7 +11865,7 @@
 			)
 		)
 		(property "Footprint" "PCM_kikit:Tab"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7daa1a8f-1ef9-49b1-8da6-952044e67850")
@@ -11877,7 +11877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "11c963a5-383d-4a19-8986-ca86b311e6e8")
@@ -11889,7 +11889,7 @@
 			)
 		)
 		(property "Description" "KiKit tab annotations"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c4abe6c0-c6eb-431d-9dcb-87c06bd5c4c7")
@@ -14345,9 +14345,9 @@
 		(pts
 			(xy 118 82.5) (xy 100 82.5)
 		)
-		(height -17.3)
-		(gr_text "18,0000 mm"
-			(at 109 98.65 0)
+		(height -17.1)
+		(gr_text "18,0 mm"
+			(at 109 98.45 0)
 			(layer "Eco1.User")
 			(uuid "cd279101-f87f-49e0-9c85-39d839b36bf0")
 			(effects
@@ -14362,7 +14362,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 1)
 		)
 		(style
 			(thickness 0.1)
@@ -14378,9 +14378,9 @@
 		(pts
 			(xy 118 82.5) (xy 118 95)
 		)
-		(height 19.7)
-		(gr_text "12,5000 mm"
-			(at 97.15 88.75 90)
+		(height 26.3)
+		(gr_text "12,5 mm"
+			(at 90.55 88.75 90)
 			(layer "Eco1.User")
 			(uuid "dfdb490d-d2ef-4b0a-a242-b8e52f1ac9f9")
 			(effects
@@ -14395,7 +14395,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 1)
 		)
 		(style
 			(thickness 0.1)
@@ -14444,9 +14444,9 @@
 		(pts
 			(xy 115 76) (xy 115 95)
 		)
-		(height 19.6)
+		(height 26.7)
 		(gr_text "19,0 mm"
-			(at 94.25 85.5 90)
+			(at 87.15 85.5 90)
 			(layer "Eco1.User")
 			(uuid "fab6e042-fb7d-4f64-9f93-a45d35c5037f")
 			(effects
