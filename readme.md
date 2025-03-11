@@ -2,6 +2,8 @@
 
 ### Lighthouse for Family Connection
 
+#### See also: [lighthouse-firmware](https://github.com/MikkoTervala/lighthouse-firmware)
+
 **Lighthouse** is a connected smart decoration that synchronizes over the internet to let your family know when you're home.
 
 ![Lighthouse PCB](pcb/lighthouse-pcb.png)
